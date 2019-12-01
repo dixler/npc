@@ -1,0 +1,3 @@
+#!/bin/bash
+# run various npm commands inside a docker jail
+docker run -it -v $PWD:/mnt node:latest npm $@
